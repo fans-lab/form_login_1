@@ -1,0 +1,19 @@
+
+========== Tentang Project ==========
+Project ini merupakan Project Kolaborasi bersama Partner saya yaitu Nungky Indah selaku Designer UI beserta asset-asset nya
+dari project ini.Form Login ini digunakan untuk Latihan CSS Dasar meliputi penggunaan Property CSS 3 
+dan Media Query sebagai sarana untuk Responsive Web. Pada Project ini telah dirancang responsive
+untuk kebanyakan ukuran layar pada device mobile dan Tablet. Dan juga responsive terhadap
+Monitor External. Project ini dibagikan secara cuma-cuma (gratis) kepada siapa saja
+yang ingin belajar pada tahap CSS Dasar khususnya. Tanpa bermaksu menggurui, dibuka
+kritik dan saran bagi siapa saja yang ingin disampaikan pada Akun yg dicantumkan dibawah.
+Happy Coding and Stay Curious .... 
+
+Design By Nungky Indah KusumaWardhani
+Programmer By Isfan Rachmad Avianto
+
+
+
+========== Author ===========
+Isfan Rachmad : (isfan_rachmad / coding_is_fan) __instagram__
+Nungky Indah : (nungky_indah / nung_sky97) __instagram__

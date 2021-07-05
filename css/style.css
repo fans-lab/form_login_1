@@ -1,0 +1,472 @@
+/* ----- Fonts ----- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Oswald:wght@700&family=Roboto:wght@500&family=Uchen&display=swap');
+
+
+/* ---------- Mobile ---------- */
+@media (min-device-width: 320px) and (max-device-width: 719px) {
+    body {
+        background-image: url(../Image/asset/background_mobile.png);
+        overflow: hidden;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+    }
+
+    .elemen-bawah img,
+    .elemen-atas img {
+        position: absolute;
+        z-index: 2;
+    }
+
+    .elemen-bawah img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 110%;
+    }
+
+    .elemen-atas img {
+        top: 0;
+        right: 0;
+        width: 75%;
+    }
+
+    .container {
+        width: 90%;
+        margin: 80px auto;
+        position: relative;
+        z-index: 2;
+    }
+
+    .container .title {
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 28pt;
+        margin-bottom: 7px;
+        line-height: 1.1;
+    }
+
+    .container .subtitle {
+        font-family: 'Uchen', serif;
+        color: white;
+        font-size: 18pt;
+        font-style: italic;
+        letter-spacing: .5px;
+    }
+
+    .container .subtitle span {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+    }
+
+    .container input,
+    .container a button {
+        width: 200px;
+        height: 35px;
+        border-radius: 15px;
+        background-color: rgba(0, 0, 0, .2);
+        border: 1px solid rgba(0, 0, 0, .1);
+        padding: 0px 10px;
+        font-size: 10pt;
+        color: white;
+        letter-spacing: 1px;
+        box-sizing: border-box;
+    }
+
+    .container input::placeholder {
+        color: white;
+        opacity: 1;
+    }
+
+    .container input:focus {
+        outline: none !important;
+        border: 1px solid rgba(0, 0, 0, .2);
+    }
+
+    .container .username {
+        margin-top: 25px;
+        display: block;
+    }
+
+    .container .password {
+        margin-top: 10px;
+        display: block;
+    }
+
+    .container a .login {
+        margin-top: 18px;
+        background-color: #169F98;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 14pt;
+        cursor: pointer;
+        height: 40px;
+    }
+
+    .container a .login:hover {
+        background-color: salmon;
+    }
+
+    .gambar-icon {
+        position: fixed;
+        width: 400px;
+        bottom: 90px;
+        right: 0;
+        /* z-index: 1; */
+    }
+
+}
+
+
+/* ---------- Tablet ---------- */
+@media (min-width: 720px) and (max-width: 1199px) {
+    body {
+        background-image: url(../image/asset/background_web.png);
+        overflow: hidden;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+    }
+
+    .elemen-bawah img,
+    .elemen-atas img {
+        position: fixed;
+        z-index: 1;
+    }
+
+    .elemen-bawah img {
+        bottom: 0;
+        left: 0;
+        width: 45%;
+    }
+
+    .elemen-atas img {
+        top: 0;
+        right: 0;
+        width: 40%;
+    }
+
+    .container {
+        width: 70%;
+        height: 500px;
+        margin-top: 40px;
+        margin-left: 40px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .container .title {
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 22pt;
+        margin-bottom: 7px;
+        letter-spacing: 1px;
+    }
+
+    .container .subtitle {
+        font-family: 'Uchen', serif;
+        color: white;
+        font-size: 18pt;
+        font-style: italic;
+    }
+
+    .container .subtitle span {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+    }
+
+    .container input,
+    .container a button {
+        width: 47%;
+        height: 40px;
+        border-radius: 90px;
+        background-color: rgba(0, 0, 0, .2);
+        border: 1px solid rgba(0, 0, 0, .1);
+        padding: 0px 20px;
+        font-size: 12pt;
+        color: white;
+        letter-spacing: 1px;
+        box-sizing: border-box;
+    }
+
+    .container input::placeholder {
+        color: white;
+        opacity: 1;
+    }
+
+    .container input:focus {
+        outline: none !important;
+        border: 1px solid rgba(0, 0, 0, .2);
+    }
+
+    .container .username {
+        margin-top: 20px;
+        margin-left: 80px;
+        display: block;
+    }
+
+    .container .password {
+        margin-top: 10px;
+        margin-left: 80px;
+        display: block;
+    }
+
+    .container a .login {
+        margin-top: 20px;
+        margin-left: 80px;
+        background-color: #169F98;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 14pt;
+        cursor: pointer;
+    }
+
+    .container a .login:hover {
+        background-color: salmon;
+    }
+
+
+    .gambar-icon {
+        position: absolute;
+        width: 40%;
+        top: 70px;
+        right: 40px;
+        z-index: 3;
+    }
+}
+
+
+/* ---------- Laptop ---------- */
+@media (min-width: 1200px) and (max-width: 1919px) {
+    body {
+        background-image: url(../image/asset/background_web.png);
+        overflow: hidden;
+        position: relative;
+    }
+
+    .elemen-bawah img,
+    .elemen-atas img {
+        position: fixed;
+        z-index: 1;
+    }
+
+    .elemen-bawah img {
+        bottom: 0;
+        left: 0;
+        width: 63%;
+    }
+
+    .elemen-atas img {
+        top: 0;
+        right: 0;
+        width: 45%;
+    }
+
+    .container {
+        width: 1000px;
+        height: 500px;
+        margin-top: 120px;
+        margin-left: 140px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .container .title {
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 40pt;
+        margin-bottom: 7px;
+        letter-spacing: 1px;
+    }
+
+    .container .subtitle {
+        font-family: 'Uchen', serif;
+        color: white;
+        font-size: 30pt;
+        font-style: italic;
+    }
+
+    .container .subtitle span {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+    }
+
+    .container input,
+    .container a button {
+        width: 380px;
+        height: 60px;
+        border-radius: 90px;
+        background-color: rgba(0, 0, 0, .2);
+        border: 1px solid rgba(0, 0, 0, .1);
+        padding: 0px 20px;
+        font-size: 16pt;
+        color: white;
+        letter-spacing: 1px;
+        box-sizing: border-box;
+    }
+
+    .container input::placeholder {
+        color: white;
+        opacity: 1;
+    }
+
+    .container input:focus {
+        outline: none !important;
+        border: 1px solid rgba(0, 0, 0, .2);
+    }
+
+    .container .username {
+        margin-top: 35px;
+        margin-left: 100px;
+        display: block;
+    }
+
+    .container .password {
+        margin-top: 15px;
+        margin-left: 100px;
+        display: block;
+    }
+
+    .container a .login {
+        margin-top: 40px;
+        margin-left: 100px;
+        background-color: #169F98;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 24pt;
+        cursor: pointer;
+    }
+
+    .container a .login:hover {
+        background-color: salmon;
+    }
+
+
+    .gambar-icon {
+        position: absolute;
+        width: 600px;
+        top: 70px;
+        right: 130px;
+        z-index: 3;
+    }
+}
+
+
+/* ---------- External Monitor ---------- */
+@media(min-width: 1920px) and (max-width: 2020px) {
+    body {
+        background-image: url(../image/asset/background_web.png);
+        overflow: hidden;
+        position: relative;
+    }
+
+    .elemen-bawah img,
+    .elemen-atas img {
+        position: fixed;
+        z-index: 1;
+    }
+
+    .elemen-bawah img {
+        bottom: 0;
+        left: 0;
+        width: 63%;
+    }
+
+    .elemen-atas img {
+        top: 0;
+        right: 0;
+        width: 45%;
+    }
+
+    .container {
+        width: 60%;
+        height: 500px;
+        margin-top: 150px;
+        margin-left: 200px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .container .title {
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 40pt;
+        margin-bottom: 7px;
+        letter-spacing: 1px;
+    }
+
+    .container .subtitle {
+        font-family: 'Uchen', serif;
+        color: white;
+        font-size: 30pt;
+        font-style: italic;
+    }
+
+    .container .subtitle span {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+    }
+
+    .container input,
+    .container a button {
+        width: 380px;
+        height: 60px;
+        border-radius: 90px;
+        background-color: rgba(0, 0, 0, .2);
+        border: 1px solid rgba(0, 0, 0, .1);
+        padding: 0px 20px;
+        font-size: 16pt;
+        color: white;
+        letter-spacing: 1px;
+        box-sizing: border-box;
+    }
+
+    .container input::placeholder {
+        color: white;
+        opacity: 1;
+    }
+
+    .container input:focus {
+        outline: none !important;
+        border: 1px solid rgba(0, 0, 0, .2);
+    }
+
+    .container .username {
+        margin-top: 35px;
+        margin-left: 100px;
+        display: block;
+    }
+
+    .container .password {
+        margin-top: 15px;
+        margin-left: 100px;
+        display: block;
+    }
+
+    .container a .login {
+        margin-top: 40px;
+        margin-left: 100px;
+        background-color: #169F98;
+        color: rgb(211, 211, 211);
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 24pt;
+        cursor: pointer;
+    }
+
+    .container a .login:hover {
+        background-color: salmon;
+    }
+
+
+    .gambar-icon {
+        position: absolute;
+        width: 42%;
+        top: 70px;
+        right: 100px;
+        z-index: 3;
+    }
+}
